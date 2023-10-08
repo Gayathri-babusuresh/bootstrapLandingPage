@@ -1,0 +1,88 @@
+
+
+.c-con{
+    margin-top:50px;
+}
+
+.carousel-inner{
+    border-radius:25px;
+
+}
+
+.c-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.quote{
+    text-align: center;
+    text-indent: 10;
+    margin-top:50px;
+}
+
+.btn-primary{
+    color:white;
+    background-color: rgb(243, 170, 107);
+    border-color:rgb(243, 170, 107);
+    transition:all 0.3s linear;
+}
+
+.btn-primary:hover{
+    color:rgb(243, 170, 107);
+    background-color: white;
+    border-color:rgb(243, 170, 107);
+}
+
+div[class="card"]{
+   margin-top: 50px;
+   box-shadow: 0 0 10px;
+   border-radius:15px;
+   overflow:hidden;
+   transition:all 0.3s linear;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.footer{
+    margin-top:50px;
+    padding-bottom:25px;
+    
+} 
+
+.footer-inner{
+    padding-top:15px;
+    overflow:hidden;
+}
+
+div[class="footer-info"] > ul > li >a{
+    text-decoration:none;
+    
+    transition: all 0.3s linear;
+}
+
+div[class="footer-info"] > ul > li {
+    list-style: none;
+}
+
+div[class="footer-info"] > ul > li >a:hover{
+    text-decoration:underline;
+    text-decoration-color: rgb(243, 170, 107);
+}
+
+.btn-outline-success{
+    border-color: rgb(243, 170, 107);
+    color:rgb(243, 170, 107);
+}
+
+.btn-outline-success:hover{
+    border-color: rgb(243, 170, 107);
+    background-color:rgb(243, 170, 107);
+}
+
+

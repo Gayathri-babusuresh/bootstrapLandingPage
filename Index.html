@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+   
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-4 pb-4 ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><h2><span style="color: rgb(243, 170, 107);">Everyday </span> Elegance</h2></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carosel-->
+
+  <div class="container c-con">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imgs/slide-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/slide-4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/slide-3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/slide-2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container quote">
+    <h2>Explore Our Product's</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores alias quidem officia tenetur magni quae odio amet vel, similique facere?</p>
+  </div>
+
+  <!-- products-->
+  <div class="container c-card">
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Drama Serum</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 2.50$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product2.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pond's Light Gel</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 5.00$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product3.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Oil Serum</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 2.70$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sun Screen</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 4.30$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product5.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nivea Men Deo</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 2.50$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product6.jpg" style="height:100%;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tresemme Shampoo</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 3.66$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+        </span>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product7.webp" style="height:100%;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nivea Cream</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 7.50$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./products/product8.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Garnier Vitamin cream</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <span>
+        <a href="#" class="btn btn-primary">Buy 12.00$</a>
+        <a href="#" class="btn btn-primary"><span class="d-flex align-items-center"> Add to  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 m-1 " viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+         </span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  
+    <div class="footer bg-dark">
+      <div class="footer-inner text-light d-flex flex-wrap justify-content-evenly">
+        <div class="footer-info">
+          <ul class="list-group list-group-flush">
+            <li><b>ABOUT</b></li>
+            <li><a href="#" class="text-white-50 list-group-items">About us</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Contact us</a></li>
+            <li><a href="#" class="text-white-50 list-group-items ">Lakme Wholesale</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Corporate Information</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <ul class="list-group list-group-flush">
+            <li><b>HELP</b></li>
+            <li><a href="#" class="text-white-50 list-group-items">Payments</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Shipping</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Cancellation & Returns</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">FAQ</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Report Infringement</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <ul class="list-group list-group-flush">
+            <li><b>CONSUMER POLICY</b></li>
+            <li><a href="#" class="text-white-50 list-group-items">Cancellation & Returns</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Terms of Use</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Security</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Privacy</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <ul class="list-group list-group-flush">
+            <li><b>SOCIAL</b></li>
+            <li><a href="#" class="text-white-50 list-group-items">Facebook</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">Twitter</a></li>
+            <li><a href="#" class="text-white-50 list-group-items">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  
+
+   
+
+
+
+
+
+            
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</body>
+</html>
